@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    cursor: pointer;
+    width: 100%;
+}
+
+#first{
+    height: 100vh;
+    width: 100vw;
+    background-color: #de9c63c0;
+    position: relative;
+}
+.box{
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    gap: 15px;
+}
+.box h1{
+    text-decoration:underline;
+    font-family: "ogg";
+   
+}
+.box img{
+    height: 130%;
+    z-index: 99999;
+    
+}
+#box1{
+    position: absolute;
+    top: 16%;
+    left: 80px;
+}
+
+#box2{
+    position: absolute;
+    top: 46%;
+    left: 74%;
+}
+
+#box3{
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+
+#box4{
+    position: absolute;
+    top:20px ;
+
+    left: 46%;
+}
+
+#second{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#second h1{
+  font-size: 100px;
+  font-weight: 600;
+  font-family: "titillium web";
+}
+#second h1 span{
+    display:inline-block;
+    font-family: "titillium web";
+    color: #d16303;
+}
+
+#third{
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    background-color:#f4a057c2;
+    position: relative;
+    padding-bottom: 100px;
+    
+}
+.box1{
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+}
+#box5{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    
+}
+#box6{
+    position: absolute;
+   top: 50px;
+    left: 16%;
+}
+#box7{
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+#box8{
+    position: absolute;
+    top: 58%;
+    left: 80%;
+}
+#box9{
+    position: absolute;
+
+    left: 70%;
+}
+.box1 img{
+    height: 120%;
+}
+.box1{
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+   gap: 15px;
+}
+.box1 h1{
+    text-decoration:underline;
+    font-family: "ogg";
+}
+
